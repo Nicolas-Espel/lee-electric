@@ -68,6 +68,14 @@
 
 }
 
+.popup-links {
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: all 250ms ease-in-out;
+}
+
 .pop-menu {
     justify-content: center;
     align-items: baseline;
@@ -92,6 +100,12 @@
     border-right: none;*/
     border-bottom: 1px solid;
     padding-bottom: 30px;
+}
+
+.popup-links:hover {
+    color: gold;
+    border-bottom: 1px solid;
+    transform: scale(1.1);
 }
 
 /*hides links for mobile and displays hamburger menu*/
