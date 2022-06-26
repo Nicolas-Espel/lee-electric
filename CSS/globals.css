@@ -1,0 +1,69 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(217, 206, 206);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hide-for-mobile {
+    display: none;
+}
+
+
+.hide-for-desktop {
+    display: none;
+}
+
+.hide-for-desktop2 {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.has-fade {
+    animation: fade-in 500ms ease-in 1;
+}
+
+.fades-out {
+    visibility: hidden;
+    animation: fade-out 500ms ease-in forwards;     
+}
+
+.overlay {
+    background: linear-gradient(#00004a, #00004a00)
+}
+
+.hide-overlay {
+    background-color: rgb(217, 206, 206);
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
