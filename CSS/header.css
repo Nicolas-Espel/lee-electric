@@ -129,7 +129,7 @@
 }
 
 /*hides links for mobile and displays hamburger menu*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 850px) {
     .hide-for-desktop {
         display: block;
     }
@@ -137,7 +137,7 @@
 }
 
 /*hides hamburger menu and displays links, also hides overlay if open*/
-@media all and (min-width: 769px) {
+@media all and (min-width: 851px) {
     .hide-for-mobile {
         display: flex;
     }
