@@ -2,7 +2,7 @@ const hmbMenu = document.querySelector('#hmb-menu');
 const popUpContainer = document.querySelector('.pop-container');
 const popUpScreen = document.querySelector('.pop-menu');
 const popUpLinks = document.querySelector('.pop-links');
-const overlay = document.querySelector('.hero');
+const overlay = document.querySelector('body');
 const mediaQuery = window.matchMedia('(min-width: 769px)');
 
 //Adds and removes classes once the mobile hamburger menu is clicked, mostly helper classes to animate a smoother pop-up menu

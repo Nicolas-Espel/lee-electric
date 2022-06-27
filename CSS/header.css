@@ -112,7 +112,9 @@
 }
 
 .pop-links {
-    margin-top: 46px;
+    justify-items: center;
+    margin-top: 42px;
+    padding: 0;
     gap: 24px;
 }
 
