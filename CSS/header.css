@@ -3,6 +3,7 @@
     position: fixed;
     width: 100%;
     background-color: #00004a;
+    z-index: 1000;
 }
 
 #header-logo {
@@ -12,7 +13,7 @@
 .logo {
     height: 80px;
     width: 200px;
-    max-width: 150%;
+    max-width: 200%;
 }
 
 #nav-bar {
@@ -76,15 +77,38 @@
     transition: all 250ms ease-in-out;
 }
 
-.pop-menu {
+/*.pop-menu {
     justify-content: center;
     align-items: baseline;
-    margin-top: 35px;
+    position: fixed;
+    top: 18%;
+    left: 27%;
     height: 300px;
     width: 300px;
     background-color: #00004a;
     border-radius: 10px;
+    z-index: 500;
 
+}*/
+
+.pop-container {
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    height: 300px;
+    width: 100%;
+    top: 14%;
+    z-index: 500;
+}
+
+.pop-menu {
+    justify-content: center;
+    align-items: baseline;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    z-index: 500;
+    background-color: #00004a;
 }
 
 .pop-links {
@@ -94,11 +118,6 @@
 
 .links:hover {
     color: gold;
-    /*border-style: solid;
-    border-width: 1px;
-    border-top: none;
-    border-left: none;
-    border-right: none;*/
     border-bottom: 1px solid;
     padding-bottom: 30px;
 }

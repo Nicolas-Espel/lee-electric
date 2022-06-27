@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     padding: 0;
+    height: 100%;
     background-color: rgb(217, 206, 206);
     font-family: 'Open Sans', sans-serif;
 }
@@ -34,13 +35,11 @@ body {
     animation: fade-in 500ms ease-in 1;
 }
 
-.fades-out {
-    visibility: hidden;
-    animation: fade-out 500ms ease-in forwards;     
-}
-
 .overlay {
-    background: linear-gradient(#00004a, #00004a00)
+    position: fixed;
+    background: linear-gradient(#00004a, #00004a00);
+    z-index: 400;
+
 }
 
 .hide-overlay {
@@ -56,14 +55,3 @@ body {
     }
 }
 
-@keyframes fade-out {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: .5;
-    }
-    100% {
-        opacity: 0;
-    }
-}
