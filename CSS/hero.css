@@ -61,6 +61,7 @@ h1 {
 }
 
 .cta:hover {
+    cursor: pointer;
     background-color: #00004a;
     color: #FFF;
     border-color: #FFF;

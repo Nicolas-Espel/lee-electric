@@ -4,6 +4,7 @@ const popUpScreen = document.querySelector('.pop-menu');
 const popUpLinks = document.querySelector('.pop-links');
 const overlay = document.querySelector('body');
 const mediaQuery = window.matchMedia('(min-width: 769px)');
+const heroBtn = document.querySelector('.cta')
 
 //Adds and removes classes once the mobile hamburger menu is clicked, mostly helper classes to animate a smoother pop-up menu
 hmbMenu.addEventListener("click" , function(){
@@ -18,7 +19,7 @@ hmbMenu.addEventListener("click" , function(){
         popUpScreen.classList.remove('has-fade');
         popUpContainer.classList.remove('flex');
         popUpContainer.classList.add('hide');
-        overlay.classList.remove('overlay');
+        //overlay.classList.remove('overlay');
 
 
     } else {
@@ -32,7 +33,7 @@ hmbMenu.addEventListener("click" , function(){
         popUpScreen.classList.add('has-fade');
         popUpContainer.classList.add('flex');
         popUpContainer.classList.remove('hide');
-        overlay.classList.add('overlay');
+        //overlay.classList.add('overlay');
     }
 });
 
@@ -48,3 +49,12 @@ function hideOverlay(h) {
 //calls function into browser upon loading screen
 mediaQuery.addListener(hideOverlay);
 hideOverlay(mediaQuery);
+
+//scrolls the page down 900px smoothly once hero button is clicked
+heroBtn.addEventListener('click', () => {
+    window.scroll({
+        top: 820,
+        left: 0,
+        behavior: 'smooth'
+      })
+});

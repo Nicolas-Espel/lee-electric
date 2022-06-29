@@ -1,5 +1,75 @@
 #about-us {
+    margin: 10px;
     height: 740px;
     width: 100%;
     background-color: white;
+}
+
+#about-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-h1 {
+    width: 70%;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #00004a;
+    text-align: center;
+    font-weight: 200;
+    font-size: 48px;
+    color: #00004a;
+}
+
+#row {
+    display: flex   ;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#para-container {
+    width: 45%;
+}
+
+.para-head {
+    margin: 28px;
+    font-size: 30px;
+    color: #00004a;
+}
+
+.para {
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+#meet-container {
+    width: 45%;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+}
+
+.headshots {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team {
+    display: inline-flex;
+}
+
+.circle-head {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #00004a;
+    border-radius: 50%;
+}
+
+.team-para {
+    padding-left: 20px;
 }
