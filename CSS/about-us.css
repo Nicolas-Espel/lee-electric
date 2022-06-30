@@ -1,6 +1,9 @@
 #about-us {
-    margin: 10px;
-    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
     background-color: white;
 }
@@ -40,9 +43,23 @@
     color: #00004a;
 }
 
-.para {
+.about-para {
     line-height: 30px;
     padding-left: 30px;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 150px);
+    grid-gap: 25px;
+}
+
+/*perfectly sets images into grid containers*/
+.grid-item >img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 
 #meet-container {
@@ -72,4 +89,59 @@
 
 .team-para {
     padding-left: 20px;
+}
+
+/*For tablets and smaller screen laptops*/
+@media all and (max-width: 900px) {
+    #about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    #row {
+        display: block;
+        justify-content: center;
+    }
+    #para-container, #meet-container {
+        width: 90%;
+        margin: 5%;
+        text-align: center;
+    }
+    .para {
+        padding: 0;
+    }
+    .grid-container{
+        justify-content: center;
+    }
+}    
+
+@media all and (max-width: 480px) {
+    .portrait {
+        width: 95px;
+        height: 95px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .slogan {
+        font-size: 15px;
+    }
+    .about-h1 {
+        font-size: 29px;
+    }
+    .para-head {
+        font-size: 20px;
+    }
+    #about-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*#para-container, #meet-container {
+    }*/
+    .grid-container {
+        grid-gap: 2px;
+        grid-template-columns: repeat(3, 108px);
+    }
 }
