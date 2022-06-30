@@ -50,7 +50,7 @@ function hideOverlay(h) {
 mediaQuery.addListener(hideOverlay);
 hideOverlay(mediaQuery);
 
-//scrolls the page down 900px smoothly once hero button is clicked
+//scrolls the page down 820px smoothly once hero button is clicked
 heroBtn.addEventListener('click', () => {
     window.scroll({
         top: 820,
