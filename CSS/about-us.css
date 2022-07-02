@@ -48,6 +48,10 @@
     padding-left: 30px;
 }
 
+.para {
+    color: #00004a;
+}
+
 .grid-container {
     display: grid;
     align-items: center;
