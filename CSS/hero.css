@@ -19,6 +19,24 @@
     align-items: center;
 }
 
+/*Start of fa icon styling (the rest on globals.css)*/
+.hero-content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -30%;
+    font-size: 23px;
+    transition: all 250ms ease-in-out;
+}
+
+.hero-content a:hover {
+    transform: scale(1.2); 
+    opacity: .75;
+}
+
+/*end of fa icon styling*/
+
 h1 {
     font-size: 50px;
     color: #FFF;

@@ -61,4 +61,41 @@ body {
 img {
     image-rendering: auto;
     image-rendering: -webkit-optimize-contrast;
-  }
+}
+
+
+/*FA icons style classes*/
+.fa {
+    text-decoration: none;
+    text-align: center;
+    bottom: 14%;
+}
+
+.fa-instagram {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+}
+
+.fa-facebook {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #4267B2;
+    color: #FFF;
+}
+
+.zero {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20%;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 100px;
+    gap: 15px;
+}
