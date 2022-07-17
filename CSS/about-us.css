@@ -6,6 +6,7 @@
     height: 100%;
     width: 100%;
     background-color: white;
+    padding-bottom: 50px;
 }
 
 #about-header {
@@ -57,6 +58,8 @@
     align-items: center;
     grid-template-columns: repeat(3, 150px);
     grid-gap: 25px;
+    margin-left: 3%;
+    max-width: 100%;
 }
 
 /*perfectly sets images into grid containers*/
@@ -64,6 +67,18 @@
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+}
+
+.item3 img {
+    max-width: 109%;
+}
+
+.item3 {
+    transition: all 250ms ease-in-out;
+}
+
+.item3:hover {
+    opacity: .75;
 }
 
 #meet-container {
@@ -78,6 +93,7 @@
 .headshots {
     list-style-type: none;
     padding: 0;
+    margin: 0 10px 10px;
 }
 
 .team {
@@ -107,16 +123,25 @@
         display: block;
         justify-content: center;
     }
-    #para-container, #meet-container {
+    #para-container {
         width: 90%;
         margin: 5%;
         text-align: center;
+    }
+    #meet-container {
+        width: 90%;
     }
     .para {
         padding: 0;
     }
     .grid-container{
         justify-content: center;
+    }
+    .circle-head {
+        margin: 0 10px 10px 0;
+    }
+    .para-head {
+        text-align: center;
     }
 }    
 
@@ -136,6 +161,7 @@
     }
     .para-head {
         font-size: 20px;
+        text-align: center;
     }
     #about-us {
         display: flex;

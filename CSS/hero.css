@@ -70,7 +70,7 @@ h1 {
     bottom: 25%;
     padding: 20px;
     border: 2px solid #00004a;
-    border-radius: 5%;
+    border-radius: 10px;
     color: #00004a;
     background-color: #FFF;
     transition: all 250ms ease-in-out;

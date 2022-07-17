@@ -8,12 +8,17 @@
 
 #header-logo {
     display: flex;
+    width: 300px;
+}
+
+#header-logo a {
+    width: 100%;
 }
 
 .logo {
     height: 80px;
-    width: 200px;
-    max-width: 200%;
+    width: 100%;
+    max-width: 100%;
 }
 
 #nav-bar {
@@ -31,6 +36,9 @@
 
 #hmb-menu {
     margin-top: 47px;
+    position: absolute;
+    top: -6%;
+    left: 90%;
 }
 
 #hmb-menu span {
@@ -66,7 +74,6 @@
     color: #fff;
     font-size: 16px;
     transition: all 250ms ease-in-out;
-
 }
 
 .popup-links {
