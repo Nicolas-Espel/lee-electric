@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .hide-for-mobile {

@@ -16,7 +16,9 @@
     <!-- Header begins here -->
     <header class="header-wrapper">
         <div id="header-logo">
-            <img class="logo" src="images/logo.png" alt="LEE Electric logo">
+            <a href="#">
+                <img class="logo" src="images/logo.png" alt="LEE Electric logo">
+            </a>
         </div>
         <!-- Nav bar begins here -->
         <div id="nav-bar">
@@ -86,7 +88,7 @@
                         <img src="images/endorsements/baaa.jpeg" alt="bay area association">
                     </div>
                     <div class="grid-item item3">
-                        <img src="images/endorsements/bbb.png" alt="better business bureau acredited business A+ rating">
+                        <a href="https://www.bbb.org/us/fl/tampa/profile/electrician/lee-electric-inc-0653-90049761" target="_blank" rel="noopener noreferrer"><img src="images/endorsements/bbb.png" alt="better business bureau acredited business A+ rating"></a>
                     </div>
                     <div class="grid-item item4">
                         <img src="images/endorsements/bestof_carrollwood.jpeg" alt="Gold winner best of Carrolwood">
@@ -131,6 +133,7 @@
                                 After a year in the company directly learning from Luis, he has continued to push himself to study and learn how to best service every client's needs.
                             </p>
                         </li>
+                        <!-- 
                         <li class="team">
                             <img src="images/nico.jpeg" alt="Tech headshot" class="circle-head nico">
                             <p class="para team-para">
@@ -138,12 +141,32 @@
                                 Nicolas (Nico) is our most recent hire, he joined Lee Electric in 2022. Nico is also the son of Luis and has been helping with the company on and off throughout the years. 
                                 He recently joined due to a growing curiosity in the industry. 
                             </p>
-                        </li>
+                        </li> -->
                     </ul>    
                 </div>    
             </div>
         </div>
 <!-- About us 2 columns ends here -->
+    </section>
+    <!-- Contact us starts here -->
+    <section id="contact-us">
+        <h1>Contact us</h1>
+        <div>
+            <p class="para">Question, Inquiry, or just want to get in contact? <br> Fill out the contact form and we'll be sure to get back to you shortly!</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name..">
+
+                <label for="pnumber">Phone Number</label>
+                <input type="text" id="pnumber" placeholder="Phone number..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Your email..">
+
+                <label for="request">Request</label>
+                <textarea id="request" name="request" placeholder="Let us know your reason for reaching out!" style="height: 200px;"></textarea>
+            </form>
+        </div>
     </section>
 <script src="script.js"></script>
 </body>

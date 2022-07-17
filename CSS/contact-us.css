@@ -1,0 +1,59 @@
+#contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: #D3D3D3;
+}
+
+#contact-us h1 {
+    width: 70%;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #00004a;
+    text-align: center;
+    font-weight: 200;
+    font-size: 48px;
+    color: #00004a;
+}
+
+#contact-us div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    gap: 100px;
+}
+
+#contact-us form {
+    display: grid;
+    width: 375px;
+}
+
+#contact-us p {
+    width: 35%;
+}
+
+#contact-us input, textarea {
+    border: 1px solid #00004a;
+    border-radius: 5px;
+}
+
+#contact-us input {
+    height: 20px;
+}
+
+@media all and (max-width: 900px) {
+    #contact-us div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}
