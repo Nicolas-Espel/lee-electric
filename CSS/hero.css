@@ -60,6 +60,7 @@ h1 {
 
 .slogan {
     position: absolute;
+    text-align: center;
     top: 57%;
     font-size: 18px;
     color: #FFF;

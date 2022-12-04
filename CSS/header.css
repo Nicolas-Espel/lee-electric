@@ -12,13 +12,13 @@
 }
 
 #header-logo a {
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .logo {
     height: 80px;
-    width: 100%;
-    max-width: 100%;
+    /*width: 100%;
+    max-width: 100%;*/
 }
 
 #nav-bar {

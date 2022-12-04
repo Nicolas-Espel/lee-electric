@@ -174,4 +174,9 @@
         grid-gap: 2px;
         grid-template-columns: repeat(3, 108px);
     }
+
+    .ul-container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
